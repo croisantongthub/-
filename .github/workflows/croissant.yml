@@ -1,0 +1,13 @@
+name: Croissant!!!!!!!!
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+      
+      - name: BUILD ME!
+        run: python3 create.py
