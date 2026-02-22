@@ -10,4 +10,4 @@ jobs:
       - uses: actions/setup-python@v6
       
       - name: BUILD ME!
-        run: python3 create.py
+        run: python3 create.py > create-py-out
